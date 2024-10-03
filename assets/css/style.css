@@ -15,7 +15,21 @@ body{
 }
 .log-in{
     background-color: rgb(0, 166, 255);
+    border: 1px solid  rgb(0, 166, 255);
+
 }
 .dadi{
     background-color: rgb(171, 0, 0);
+    border: 1px solid  rgb(171, 0, 0);
+}
+
+.dadi:hover{
+    color: rgb(171, 0, 0);
+    background-color: white;
+    border: 1px solid  rgb(171, 0, 0);
+}
+.log-in:hover{
+    color: rgb(0, 166, 255);
+    background-color: white;
+    border: 1px solid  rgb(0, 166, 255);
 }

@@ -5,8 +5,8 @@
 let mails=['ciao@mail.com','ciao1@mail.com','ciao2@mail.com','ciao3@mail.com','ciao4@mail.com','ciao5@mail.com','ciao6@mail.com',]
 let user_mail=prompt('inserisci qui la tua e-mail');
 if (mails.includes(user_mail)) {
-    console.log('mail già in uso');    
+    console.log('access accept');    
 } else {
-    console.log('mail registrata correttamente');
+    console.log('access denied');
     
 }
